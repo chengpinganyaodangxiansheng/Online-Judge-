@@ -1,0 +1,13 @@
+{
+  "database": "bitoj_dev",
+  "newQuestions": 0,
+  "verifiedQuestions": 9,
+  "difficultyCounts": {
+    "easy": 3,
+    "mid": 3,
+    "hard": 3
+  },
+  "mysqlReadback": "PASS",
+  "elasticsearchReadback": "PASS",
+  "navigationCache": "invalidated"
+}

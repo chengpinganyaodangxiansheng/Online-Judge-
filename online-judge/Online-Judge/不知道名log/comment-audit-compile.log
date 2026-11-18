@@ -1,0 +1,243 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:oj-common-file:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.example:oj-common-core:jar -> duplicate declaration of version 1.0-SNAPSHOT @ line 61, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Online-Judge                                                       [pom]
+[INFO] oj-common                                                          [pom]
+[INFO] oj-common-swagger                                                  [jar]
+[INFO] oj-common-redis                                                    [jar]
+[INFO] oj-common-message                                                  [jar]
+[INFO] oj-common-core                                                     [jar]
+[INFO] oj-common-security                                                 [jar]
+[INFO] oj-common-file                                                     [jar]
+[INFO] oj-common-elasticsearch                                            [jar]
+[INFO] oj-api                                                             [jar]
+[INFO] oj-common-rabbitMQ                                                 [jar]
+[INFO] oj-common-mybatis                                                  [jar]
+[INFO] oj-modules                                                         [pom]
+[INFO] oj-friend                                                          [jar]
+[INFO] oj-system                                                          [jar]
+[INFO] oj-job                                                             [jar]
+[INFO] oj-judge                                                           [jar]
+[INFO] oj-gateway                                                         [jar]
+[INFO] 
+[INFO] ----------------------< org.example:Online-Judge >----------------------
+[INFO] Building Online-Judge 1.0-SNAPSHOT                                [1/18]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< org.example:oj-common >------------------------
+[INFO] Building oj-common 1.0-SNAPSHOT                                   [2/18]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -------------------< org.example:oj-common-swagger >--------------------
+[INFO] Building oj-common-swagger 1.0-SNAPSHOT                           [3/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-swagger ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-swagger ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --------------------< org.example:oj-common-redis >---------------------
+[INFO] Building oj-common-redis 1.0-SNAPSHOT                             [4/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-redis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-redis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------------< org.example:oj-common-message >--------------------
+[INFO] Building oj-common-message 1.0-SNAPSHOT                           [5/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-message ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-message ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ---------------------< org.example:oj-common-core >---------------------
+[INFO] Building oj-common-core 1.0-SNAPSHOT                              [6/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-core ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------------< org.example:oj-common-security >-------------------
+[INFO] Building oj-common-security 1.0-SNAPSHOT                          [7/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-security ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ---------------------< org.example:oj-common-file >---------------------
+[INFO] Building oj-common-file 1.0-SNAPSHOT                              [8/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-file ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-file ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ----------------< org.example:oj-common-elasticsearch >-----------------
+[INFO] Building oj-common-elasticsearch 1.0-SNAPSHOT                     [9/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-elasticsearch ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-elasticsearch\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-elasticsearch\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-elasticsearch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -------------------------< org.example:oj-api >-------------------------
+[INFO] Building oj-api 1.0-SNAPSHOT                                     [10/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-api ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------------< org.example:oj-common-rabbitMQ >-------------------
+[INFO] Building oj-common-rabbitMQ 1.0-SNAPSHOT                         [11/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-rabbitMQ ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-rabbitMQ ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] -------------------< org.example:oj-common-mybatis >--------------------
+[INFO] Building oj-common-mybatis 1.0-SNAPSHOT                          [12/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-mybatis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-mybatis ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-mybatis\target\classes
+[INFO] 
+[INFO] -----------------------< org.example:oj-modules >-----------------------
+[INFO] Building oj-modules 1.0-SNAPSHOT                                 [13/18]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< org.example:oj-friend >------------------------
+[INFO] Building oj-friend 1.0-SNAPSHOT                                  [14/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-friend ---
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-friend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-friend\target\classes
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-friend/src/main/java/org/example/friend/controller/user/UserController.java: E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-friend\src\main\java\org\example\friend\controller\user\UserController.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-friend/src/main/java/org/example/friend/controller/user/UserController.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] -----------------------< org.example:oj-system >------------------------
+[INFO] Building oj-system 1.0-SNAPSHOT                                  [15/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-system ---
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-system ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-system\target\classes
+[INFO] 
+[INFO] -------------------------< org.example:oj-job >-------------------------
+[INFO] Building oj-job 1.0-SNAPSHOT                                     [16/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-job ---
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-job ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-job\target\classes
+[INFO] 
+[INFO] ------------------------< org.example:oj-judge >------------------------
+[INFO] Building oj-judge 1.0-SNAPSHOT                                   [17/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-judge ---
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-judge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\classes
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+[INFO] 
+[INFO] -----------------------< org.example:oj-gateway >-----------------------
+[INFO] Building oj-gateway 1.0-SNAPSHOT                                 [18/18]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-gateway ---
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-gateway ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Online-Judge 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Online-Judge ....................................... SUCCESS [  0.003 s]
+[INFO] oj-common .......................................... SUCCESS [  0.001 s]
+[INFO] oj-common-swagger .................................. SUCCESS [  1.081 s]
+[INFO] oj-common-redis .................................... SUCCESS [  0.300 s]
+[INFO] oj-common-message .................................. SUCCESS [  0.115 s]
+[INFO] oj-common-core ..................................... SUCCESS [  0.180 s]
+[INFO] oj-common-security ................................. SUCCESS [  0.220 s]
+[INFO] oj-common-file ..................................... SUCCESS [  0.384 s]
+[INFO] oj-common-elasticsearch ............................ SUCCESS [  0.195 s]
+[INFO] oj-api ............................................. SUCCESS [  0.244 s]
+[INFO] oj-common-rabbitMQ ................................. SUCCESS [  0.131 s]
+[INFO] oj-common-mybatis .................................. SUCCESS [  4.891 s]
+[INFO] oj-modules ......................................... SUCCESS [  0.001 s]
+[INFO] oj-friend .......................................... SUCCESS [  9.299 s]
+[INFO] oj-system .......................................... SUCCESS [  6.397 s]
+[INFO] oj-job ............................................. SUCCESS [  3.982 s]
+[INFO] oj-judge ........................................... SUCCESS [  5.853 s]
+[INFO] oj-gateway ......................................... SUCCESS [  0.349 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.227 s
+[INFO] Finished at: 2026-10-27T23:09:30+08:00
+[INFO] ------------------------------------------------------------------------

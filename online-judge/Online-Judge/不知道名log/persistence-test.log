@@ -1,0 +1,39 @@
+20:26:48.126 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [JudgeReliabilityIntegrationTest]: using SpringBootContextLoader
+20:26:48.131 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.example.judge.JudgeReliabilityIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:26:48.161 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [JudgeReliabilityIntegrationTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+20:26:48.330 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [JudgeReliabilityIntegrationTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+20:26:48.331 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [JudgeReliabilityIntegrationTest], class annotated with @DirtiesContext [false] with mode [null]
+2026-10-26T20:26:49.005+08:00  WARN 151872 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-26T20:26:49.118+08:00  WARN 151872 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-26T20:26:49.992+08:00  WARN 151872 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-26T20:26:50.017+08:00  WARN 151872 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-26T20:26:50.019+08:00  INFO 151872 --- [           main] o.e.j.JudgeReliabilityIntegrationTest    : The following 1 profile is active: "local"
+2026-10-26T20:26:50.946+08:00  INFO 151872 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-26T20:26:50.952+08:00  INFO 151872 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-26T20:26:51.086+08:00  INFO 151872 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 0 Redis repository interfaces.
+2026-10-26T20:26:51.623+08:00  INFO 151872 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eae215d4-dbf8-3013-a9b1-5920680d1ad2
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-26T20:26:55.562+08:00  WARN 151872 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-26T20:26:55.633+08:00  INFO 151872 --- [           main] o.e.j.JudgeReliabilityIntegrationTest    : Started JudgeReliabilityIntegrationTest in 7.25 seconds (process running for 8.365)
+2026-10-26T20:26:56.509+08:00  INFO 151872 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-26T20:26:56.912+08:00  INFO 151872 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44ec4a38
+2026-10-26T20:26:56.915+08:00  INFO 151872 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-26T20:26:57.945+08:00  INFO 151872 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-26T20:26:58.440+08:00  INFO 151872 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-26T20:26:58.600+08:00  INFO 151872 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-26T20:26:58.712+08:00  INFO 151872 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-26T20:26:58.798+08:00  INFO 151872 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-26T20:26:59.485+08:00  INFO 151872 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-26T20:26:59.509+08:00  INFO 151872 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

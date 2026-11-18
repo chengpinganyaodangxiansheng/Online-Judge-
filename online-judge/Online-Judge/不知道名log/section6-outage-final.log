@@ -1,0 +1,56 @@
+13:54:33.937 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [JudgeSubmissionHttpIntegrationTest]: using SpringBootContextLoader
+13:54:33.940 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.example.friend.JudgeSubmissionHttpIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:54:33.964 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [JudgeSubmissionHttpIntegrationTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+13:54:34.112 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [JudgeSubmissionHttpIntegrationTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+13:54:34.118 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class org.example.friend.JudgeSubmissionHttpIntegrationTest
+2026-10-27T13:54:34.838+08:00  WARN 159544 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:54:34.947+08:00  WARN 159544 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:54:35.755+08:00  WARN 159544 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T13:54:35.786+08:00  WARN 159544 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:54:35.787+08:00  INFO 159544 --- [           main] o.e.f.JudgeSubmissionHttpIntegrationTest : The following 1 profile is active: "local"
+2026-10-27T13:54:38.216+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T13:54:38.224+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-27T13:54:38.652+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 415 ms. Found 1 Elasticsearch repository interfaces.
+2026-10-27T13:54:38.667+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T13:54:38.668+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-27T13:54:38.692+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-27T13:54:38.727+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T13:54:38.731+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T13:54:38.786+08:00  INFO 159544 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.example.friend.elasticsearch.QuestionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-27T13:54:38.787+08:00  INFO 159544 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+2026-10-27T13:54:39.739+08:00  INFO 159544 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0a8e8601-8da0-3fbe-8d71-96fe32fa7e73
+2026-10-27T13:54:39.930+08:00  INFO 159544 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.example.api.domain.RemoteJudgeService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-27T13:54:41.656+08:00  INFO 159544 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-10-27T13:54:41.687+08:00  INFO 159544 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T13:54:41.688+08:00  INFO 159544 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-27T13:54:42.069+08:00  INFO 159544 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T13:54:42.073+08:00  INFO 159544 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6279 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T13:54:50.520+08:00  WARN 159544 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T13:54:50.768+08:00  INFO 159544 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59015 (http) with context path ''
+2026-10-27T13:54:51.328+08:00  INFO 159544 --- [           main] o.e.f.JudgeSubmissionHttpIntegrationTest : Started JudgeSubmissionHttpIntegrationTest in 17.166 seconds (process running for 18.171)
+2026-10-27T13:54:51.386+08:00  INFO 159544 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T13:54:51.867+08:00  INFO 159544 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@194a653d
+2026-10-27T13:54:51.871+08:00  INFO 159544 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T13:54:55.288+08:00  INFO 159544 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-27T13:54:55.288+08:00  INFO 159544 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-27T13:54:55.293+08:00  INFO 159544 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-10-27T13:55:34.201+08:00  WARN 159544 --- [o-auto-1-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@194a653d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-10-27T13:55:34.205+08:00  WARN 159544 --- [o-auto-1-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79090aad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-10-27T13:55:34.208+08:00  WARN 159544 --- [o-auto-1-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3068e791 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-10-27T13:55:34.209+08:00  WARN 159544 --- [o-auto-1-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39c76284 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-10-27T13:55:34.211+08:00  WARN 159544 --- [o-auto-1-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e453a5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-10-27T13:56:04.602+08:00  INFO 159544 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-27T13:56:04.610+08:00  INFO 159544 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

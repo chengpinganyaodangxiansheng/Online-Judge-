@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.job.mapper.user.UserSubmitMapper">
+
+    <!-- 先按用户和题目取最高分，再求比赛总分，避免重复提交同题反复加分。 -->
+    <select id="selectUserScoreList" resultType="org.example.job.domain.user.UserScore">
+        SELECT
+            exam_id,
+            user_id,
+            sum(best_score) as score
+        FROM
+            (SELECT exam_id,user_id,question_id,MAX(score) best_score FROM tb_user_submit GROUP BY exam_id,user_id,question_id) best
+        WHERE
+            <foreach collection="examIdSet" open="exam_id in ( " close=" ) " item="examId" separator=",">
+                #{examId}
+            </foreach>
+        GROUP BY
+             exam_id,user_id
+        ORDER BY
+            score DESC
+    </select>
+
+    <select id="selectHostQuestionList" resultType="java.lang.Long">
+        SELECT
+            question_id,
+            count(question_id) hot_count
+        FROM
+            tb_user_submit
+        WHERE
+            exam_id is null
+        GROUP BY
+            question_id
+        ORDER BY
+            hot_count DESC
+    </select>
+</mapper>

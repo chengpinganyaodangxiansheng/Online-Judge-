@@ -1,0 +1,87 @@
+20:17:42.874 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@c6e0f32] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+20:17:42.878 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@c6e0f32] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+20:17:42.878 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@c6e0f32] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+20:17:43.175 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+20:17:43.203 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@3b1ed14b] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+20:17:43.203 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@3b1ed14b] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+20:17:43.204 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@3b1ed14b] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+20:17:43.208 [main] WARN org.example.judge.rabbit.JudgeConsumer - Sandbox execution failed submitId=1 attempt=1
+java.lang.IllegalStateException: Injected sandbox outage
+	at org.example.judge.rabbit.JudgeConsumer.consume(JudgeConsumer.java:95)
+	at org.example.judge.JudgeConsumerTest.retryPersistenceFailureDoesNotAck(JudgeConsumerTest.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+20:17:43.213 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+20:17:43.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@684b31de] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+20:17:43.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@684b31de] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+20:17:43.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@684b31de] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+20:17:43.231 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4f668f29] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+20:17:43.232 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4f668f29] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+20:17:43.232 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4f668f29] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+20:17:43.233 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+20:17:43.238 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@49ec6a9f] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+20:17:43.239 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@49ec6a9f] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+20:17:43.239 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@49ec6a9f] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]

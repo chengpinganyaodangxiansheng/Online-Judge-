@@ -1,0 +1,79 @@
+2026-10-27T20:06:05.389+08:00  WARN 20628 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:05.487+08:00  WARN 20628 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:05.793+08:00  WARN 20628 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:05.795+08:00  INFO 20628 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [req-serv] nacos-server port:8848
+2026-10-27T20:06:05.795+08:00  INFO 20628 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [http-client] connect timeout:1000
+2026-10-27T20:06:05.797+08:00  INFO 20628 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : PER_TASK_CONFIG_SIZE: 3000.0
+2026-10-27T20:06:05.947+08:00  INFO 20628 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2026-10-27T20:06:05.947+08:00  INFO 20628 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2026-10-27T20:06:05.956+08:00  INFO 20628 --- [           main] c.a.n.c.a.r.identify.CredentialWatcher   : null No credential found
+2026-10-27T20:06:06.449+08:00  WARN 20628 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T20:06:06.490+08:00  INFO 20628 --- [           main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\hp\nacos\config
+2026-10-27T20:06:06.499+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0
+2026-10-27T20:06:06.556+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$447/0x000001342d2eb490
+2026-10-27T20:06:06.558+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$448/0x000001342d2eb8b0
+2026-10-27T20:06:06.559+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2026-10-27T20:06:06.560+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2026-10-27T20:06:06.577+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2026-10-27T20:06:06.673+08:00  INFO 20628 --- [           main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2026-10-27T20:06:08.011+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1793102768496_172.17.0.1_35236
+2026-10-27T20:06:08.013+08:00  INFO 20628 --- [t.remote.worker] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Notify connected event to listeners.
+2026-10-27T20:06:08.013+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2026-10-27T20:06:08.013+08:00  INFO 20628 --- [t.remote.worker] c.a.n.client.config.impl.ClientWorker    : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Connected,notify listen context...
+2026-10-27T20:06:08.014+08:00  INFO 20628 --- [           main] com.alibaba.nacos.common.remote.client   : [e3afb6c6-d9f0-4a2f-aa0c-07ccee140127_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x000001342d453830
+2026-10-27T20:06:08.083+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2026-10-27T20:06:08.271+08:00  WARN 20628 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-friend] & group[DEFAULT_GROUP]
+2026-10-27T20:06:08.282+08:00  WARN 20628 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-friend.yaml] & group[DEFAULT_GROUP]
+2026-10-27T20:06:08.293+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2026-10-27T20:06:08.305+08:00  INFO 20628 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-oj-friend-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-friend.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-friend,DEFAULT_GROUP'}]
+2026-10-27T20:06:08.315+08:00  WARN 20628 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:08.316+08:00  INFO 20628 --- [           main] org.example.friend.OFriendApplication    : The following 1 profile is active: "local"
+2026-10-27T20:06:09.310+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T20:06:09.312+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2026-10-27T20:06:09.450+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 1 Elasticsearch repository interfaces.
+2026-10-27T20:06:09.458+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T20:06:09.459+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2026-10-27T20:06:09.464+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2026-10-27T20:06:09.482+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T20:06:09.485+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T20:06:09.501+08:00  INFO 20628 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.example.friend.elasticsearch.QuestionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-27T20:06:09.501+08:00  INFO 20628 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-10-27T20:06:09.837+08:00  INFO 20628 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a6f3e05d-6fe4-3800-8cc6-a90617b13f55
+2026-10-27T20:06:09.883+08:00  INFO 20628 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.example.api.domain.RemoteJudgeService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-27T20:06:10.562+08:00  INFO 20628 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2026-10-27T20:06:10.582+08:00  INFO 20628 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T20:06:10.582+08:00  INFO 20628 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-27T20:06:10.690+08:00  INFO 20628 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T20:06:10.691+08:00  INFO 20628 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2346 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T20:06:15.031+08:00  WARN 20628 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T20:06:15.125+08:00  INFO 20628 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2026-10-27T20:06:15.382+08:00  INFO 20628 --- [           main] org.example.friend.OFriendApplication    : Started OFriendApplication in 10.867 seconds (process running for 11.896)
+2026-10-27T20:06:15.390+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2026-10-27T20:06:15.391+08:00  INFO 20628 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-friend+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:06:15.407+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-friend, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:06:15.408+08:00  INFO 20628 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-friend, group=DEFAULT_GROUP
+2026-10-27T20:06:15.411+08:00  INFO 20628 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-friend-local.yaml+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:06:15.411+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-friend-local.yaml, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:06:15.412+08:00  INFO 20628 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-friend-local.yaml, group=DEFAULT_GROUP
+2026-10-27T20:06:15.413+08:00  INFO 20628 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-friend.yaml+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:06:15.413+08:00  INFO 20628 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-friend.yaml, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:06:15.414+08:00  INFO 20628 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-friend.yaml, group=DEFAULT_GROUP
+2026-10-27T20:06:45.087+08:00  INFO 20628 --- [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-27T20:06:45.087+08:00  INFO 20628 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-27T20:06:45.089+08:00  INFO 20628 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-27T20:06:45.822+08:00  INFO 20628 --- [nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T20:06:46.006+08:00  INFO 20628 --- [nio-8083-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fa87daa
+2026-10-27T20:06:46.009+08:00  INFO 20628 --- [nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

@@ -1,0 +1,7 @@
+round,mode,cases,total_ms
+1,submission_reuse,6,4795
+1,fresh_per_case,6,13547
+2,fresh_per_case,6,13034
+2,submission_reuse,6,4606
+3,submission_reuse,6,4010
+3,fresh_per_case,6,13403

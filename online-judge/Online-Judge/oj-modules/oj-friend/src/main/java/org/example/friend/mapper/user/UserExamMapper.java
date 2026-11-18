@@ -1,0 +1,17 @@
+package org.example.friend.mapper.user;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.example.friend.domain.exam.vo.ExamRankVO;
+import org.example.friend.domain.exam.vo.ExamVO;
+import org.example.friend.domain.user.UserExam;
+
+import java.util.List;
+@Mapper
+public interface UserExamMapper extends BaseMapper<UserExam> {
+
+    List<ExamVO> selectUserExamList(Long userId);
+
+    List<ExamRankVO> selectExamRankList(Long examId);
+
+}

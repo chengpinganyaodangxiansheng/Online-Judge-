@@ -1,0 +1,44 @@
+2026-10-30T08:22:31.228+08:00  WARN 76016 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:31.340+08:00  WARN 76016 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:32.416+08:00  WARN 76016 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-30T08:22:32.439+08:00  WARN 76016 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:32.441+08:00  INFO 76016 --- [           main] org.example.judge.OjJudgeApplication     : The following 1 profile is active: "local"
+2026-10-30T08:22:34.233+08:00  INFO 76016 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-30T08:22:34.241+08:00  INFO 76016 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-30T08:22:34.309+08:00  INFO 76016 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2026-10-30T08:22:35.111+08:00  INFO 76016 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9c85de9a-e2a2-3bdd-9233-5106e2ba8c98
+2026-10-30T08:22:36.731+08:00  INFO 76016 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-10-30T08:22:36.777+08:00  INFO 76016 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:22:36.778+08:00  INFO 76016 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-30T08:22:37.106+08:00  INFO 76016 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-30T08:22:37.108+08:00  INFO 76016 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4644 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-30T08:22:38.640+08:00  INFO 76016 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T08:22:39.062+08:00  INFO 76016 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e5ee2c9
+2026-10-30T08:22:39.070+08:00  INFO 76016 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-30T08:22:41.972+08:00  INFO 76016 --- [           main] o.e.j.s.i.SandboxEnvironmentServiceImpl  : Sandbox ready resourceId=98d72fec-e1d3-4bdc-8799-462a1660571b createMs=2002
+2026-10-30T08:22:45.646+08:00  WARN 76016 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-30T08:22:45.852+08:00  INFO 76016 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-10-30T08:22:46.562+08:00  INFO 76016 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-30T08:22:46.703+08:00  INFO 76016 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#44784e2f:0/SimpleConnection@58f2466c [delegate=amqp://admin@127.0.0.1:5672/, localPort=52037]
+2026-10-30T08:22:46.863+08:00  INFO 76016 --- [           main] org.example.judge.OjJudgeApplication     : Started OjJudgeApplication in 16.564 seconds (process running for 17.279)
+2026-10-30T08:22:46.864+08:00  INFO 76016 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Sandbox environment accounting SandboxPoolStats(total=2, creating=0, ready=1, leased=0, recycling=1, hardCapacity=3)
+2026-10-30T08:22:46.896+08:00  INFO 76016 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=1 inflightEvents=0 deadEvents=44 expiredLeases=0 retryWaiting=0 failedTasks=120
+2026-10-30T08:22:46.897+08:00  WARN 76016 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Judge failures require inspection deadEvents=44 failedTasks=120
+2026-10-30T08:22:46.922+08:00  INFO 76016 --- [e-maintenance-5] org.example.judge.job.JudgeRecoveryJob   : Judge recovery observed submitId=2115766005612101634 state=SYSTEM_FAILED dispatchSeq=1 attempt=0 workerId=null reason=QUEUE_TIMEOUT
+2026-10-30T08:22:47.222+08:00  INFO 76016 --- [e-maintenance-4] o.e.j.s.i.SandboxEnvironmentServiceImpl  : Sandbox cleanup completed resourceId=857c93b6-1c8b-4bda-ae72-19da60542ac6 cleanupMs=358
+2026-10-30T08:22:47.473+08:00  INFO 76016 --- [pool-2-thread-1] o.e.j.s.impl.OutboxDeliveryServiceImpl   : Judge publish confirmed submitId=2115962581013975041 eventId=c412c971-f3c7-468c-a0a7-6a92c0091e70 dispatchSeq=1 claimToken=3d6fe681-fd02-4394-88de-7590a371acd4 applied=1 elapsedMs=567
+2026-10-30T08:22:47.522+08:00  INFO 76016 --- [reliableJudge-1] org.example.judge.rabbit.JudgeConsumer   : Judge resource acquired submitId=2115962581013975041 resourceWaitMs=74
+2026-10-30T08:22:47.522+08:00  INFO 76016 --- [reliableJudge-1] org.example.judge.rabbit.JudgeConsumer   : Judge claimed submitId=2115962581013975041 eventId=c412c971-f3c7-468c-a0a7-6a92c0091e70 dispatchSeq=1 runToken=b8167398-1b9c-4698-8836-3de86d7c06b3 workerId=1baf5da7-53fb-475d-8d9b-ed03e0e834ef attempt=1

@@ -1,0 +1,2 @@
+org.example.common.message.service.MailService
+org.example.common.message.config.MailConfig

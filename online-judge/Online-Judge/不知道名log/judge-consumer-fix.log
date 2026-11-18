@@ -1,0 +1,356 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:oj-common-file:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.example:oj-common-core:jar -> duplicate declaration of version 1.0-SNAPSHOT @ line 61, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Online-Judge                                                       [pom]
+[INFO] oj-common                                                          [pom]
+[INFO] oj-common-redis                                                    [jar]
+[INFO] oj-common-core                                                     [jar]
+[INFO] oj-common-security                                                 [jar]
+[INFO] oj-api                                                             [jar]
+[INFO] oj-common-rabbitMQ                                                 [jar]
+[INFO] oj-common-mybatis                                                  [jar]
+[INFO] oj-modules                                                         [pom]
+[INFO] oj-judge                                                           [jar]
+[INFO] 
+[INFO] ----------------------< org.example:Online-Judge >----------------------
+[INFO] Building Online-Judge 1.0-SNAPSHOT                                [1/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< org.example:oj-common >------------------------
+[INFO] Building oj-common 1.0-SNAPSHOT                                   [2/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------------< org.example:oj-common-redis >---------------------
+[INFO] Building oj-common-redis 1.0-SNAPSHOT                             [3/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-redis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-redis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-common-redis ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-redis\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-common-redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-common-redis ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< org.example:oj-common-core >---------------------
+[INFO] Building oj-common-core 1.0-SNAPSHOT                              [4/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-core ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-common-core ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-common-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-common-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< org.example:oj-common-security >-------------------
+[INFO] Building oj-common-security 1.0-SNAPSHOT                          [5/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-security ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-common-security ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-security\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-common-security ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-common-security ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------------< org.example:oj-api >-------------------------
+[INFO] Building oj-api 1.0-SNAPSHOT                                      [6/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-api ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-api\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-api ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< org.example:oj-common-rabbitMQ >-------------------
+[INFO] Building oj-common-rabbitMQ 1.0-SNAPSHOT                          [7/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-rabbitMQ ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-rabbitMQ ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-common-rabbitMQ ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-rabbitMQ\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-common-rabbitMQ ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-common-rabbitMQ ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< org.example:oj-common-mybatis >--------------------
+[INFO] Building oj-common-mybatis 1.0-SNAPSHOT                           [8/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-common-mybatis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-common-mybatis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-common-mybatis ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-mybatis\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-common-mybatis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-common-mybatis ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------------< org.example:oj-modules >-----------------------
+[INFO] Building oj-modules 1.0-SNAPSHOT                                  [9/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------------< org.example:oj-judge >------------------------
+[INFO] Building oj-judge 1.0-SNAPSHOT                                   [10/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ oj-judge ---
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ oj-judge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\classes
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ oj-judge ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ oj-judge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ oj-judge ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.example.judge.JudgeConsumerTest
+10:21:48.614 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@14bf57b2] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:48.618 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@14bf57b2] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:48.618 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@14bf57b2] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:48.639 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'resumeConsumption' on target object [org.example.judge.rabbit.JudgeConsumer@14bf57b2] or target class [null] with arguments {}
+10:21:48.659 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:48.659 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:48.659 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:48.678 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'judgeLeaseExecutor' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [java.util.concurrent.ScheduledThreadPoolExecutor@3874b815[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]]
+10:21:48.678 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [3]
+10:21:48.678 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@64355120] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [2]
+10:21:48.863 [pool-2-thread-1] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.089 [pool-2-thread-1] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=3226
+10:21:52.099 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@e48bf9a] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.100 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@e48bf9a] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.100 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@e48bf9a] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.104 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.106 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+10:21:52.108 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=3
+10:21:52.115 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2c768ada] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.116 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2c768ada] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.116 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2c768ada] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.121 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.122 [main] WARN org.example.judge.rabbit.JudgeConsumer - Sandbox execution failed submitId=1 attempt=1
+java.lang.IllegalStateException: Injected sandbox outage
+	at org.example.judge.rabbit.JudgeConsumer.consume(JudgeConsumer.java:128)
+	at org.example.judge.JudgeConsumerTest.retryPersistenceFailureDoesNotAck(JudgeConsumerTest.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+10:21:52.132 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+10:21:52.133 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=12
+10:21:52.139 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@cb03411] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.140 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@cb03411] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.140 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@cb03411] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.141 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'resumeConsumption' on target object [org.example.judge.rabbit.JudgeConsumer@cb03411] or target class [null] with arguments {}
+10:21:52.191 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@6ab7ce48] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.191 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@6ab7ce48] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.191 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@6ab7ce48] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.196 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.197 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=1
+10:21:52.209 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2eb917d0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.209 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2eb917d0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.209 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2eb917d0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.211 [main] WARN org.example.judge.rabbit.JudgeConsumer - Judge consumption paused; persistence not confirmed
+10:21:52.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4096aa05] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4096aa05] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.218 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@4096aa05] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.262 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@53a665ad] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.263 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@53a665ad] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.263 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@53a665ad] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.298 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.300 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=2
+10:21:52.312 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@48eb9836] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.312 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@48eb9836] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.313 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@48eb9836] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.316 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.317 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=0
+10:21:52.323 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@47a7a101] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.323 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@47a7a101] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.323 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@47a7a101] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.327 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.328 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=1
+10:21:52.334 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@618ad2aa] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.335 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@618ad2aa] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.335 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@618ad2aa] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.338 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.339 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=0
+10:21:52.346 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@46c3a14d] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.346 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@46c3a14d] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.347 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@46c3a14d] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.350 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.350 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=0
+10:21:52.357 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@54f4a7f0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.357 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@54f4a7f0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.357 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@54f4a7f0] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.360 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.361 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=0
+10:21:52.367 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2e060819] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.368 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2e060819] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.368 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@2e060819] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.694 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Invoking method 'resumeConsumption' on target object [org.example.judge.rabbit.JudgeConsumer@2e060819] or target class [null] with arguments {}
+10:21:52.704 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'resourceWaitSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@279dd959] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [0]
+10:21:52.704 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'leaseSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@279dd959] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [30]
+10:21:52.704 [main] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'protectionSeconds' of type [null] on target object [org.example.judge.rabbit.JudgeConsumer@279dd959] or target class [class org.example.judge.rabbit.JudgeConsumer] to value [600]
+10:21:52.708 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge claimed submitId=1 eventId=event dispatchSeq=null runToken=token workerId=null attempt=1
+10:21:52.709 [main] INFO org.example.judge.rabbit.JudgeConsumer - Judge attempt handler ended submitId=1 eventId=event runToken=token workerId=null attempt=1 elapsedMs=1
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.885 s - in org.example.judge.JudgeConsumerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Online-Judge 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Online-Judge ....................................... SUCCESS [  0.003 s]
+[INFO] oj-common .......................................... SUCCESS [  0.001 s]
+[INFO] oj-common-redis .................................... SUCCESS [  1.245 s]
+[INFO] oj-common-core ..................................... SUCCESS [  0.121 s]
+[INFO] oj-common-security ................................. SUCCESS [  0.111 s]
+[INFO] oj-api ............................................. SUCCESS [  4.989 s]
+[INFO] oj-common-rabbitMQ ................................. SUCCESS [  0.160 s]
+[INFO] oj-common-mybatis .................................. SUCCESS [  0.361 s]
+[INFO] oj-modules ......................................... SUCCESS [  0.002 s]
+[INFO] oj-judge ........................................... SUCCESS [ 13.761 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.263 s
+[INFO] Finished at: 2026-10-28T10:21:53+08:00
+[INFO] ------------------------------------------------------------------------

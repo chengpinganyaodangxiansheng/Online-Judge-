@@ -1,0 +1,75 @@
+2026-10-27T08:36:15.311+08:00  WARN 93452 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:36:15.542+08:00  WARN 93452 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:36:18.914+08:00  WARN 93452 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T08:36:18.995+08:00  WARN 93452 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:36:19.002+08:00  INFO 93452 --- [           main] org.example.judge.OjJudgeApplication     : The following 1 profile is active: "local"
+2026-10-27T08:36:21.297+08:00  INFO 93452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T08:36:21.314+08:00  INFO 93452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T08:36:21.377+08:00  INFO 93452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2026-10-27T08:36:22.206+08:00  INFO 93452 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55e4e7fc-7d2a-3612-9d73-f8269131e4e9
+2026-10-27T08:36:24.150+08:00  INFO 93452 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-10-27T08:36:24.222+08:00  INFO 93452 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T08:36:24.223+08:00  INFO 93452 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-27T08:36:24.622+08:00  INFO 93452 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T08:36:24.624+08:00  INFO 93452 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5528 ms
+2026-10-27T08:36:25.326+08:00  INFO 93452 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器开始  -----
+2026-10-27T08:36:26.421+08:00  INFO 93452 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器结束  -----
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T08:36:34.459+08:00  WARN 93452 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T08:36:34.834+08:00  INFO 93452 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-10-27T08:36:35.588+08:00  INFO 93452 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-27T08:36:35.855+08:00  INFO 93452 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1deceb67:0/SimpleConnection@f29353f [delegate=amqp://admin@127.0.0.1:5672/, localPort=65371]
+2026-10-27T08:36:36.026+08:00  INFO 93452 --- [           main] org.example.judge.OjJudgeApplication     : Started OjJudgeApplication in 21.906 seconds (process running for 22.974)
+2026-10-27T08:36:36.074+08:00  INFO 93452 --- [pool-2-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T08:36:36.083+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:36:36.889+08:00  INFO 93452 --- [pool-2-thread-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69064633
+2026-10-27T08:36:36.896+08:00  INFO 93452 --- [pool-2-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T08:36:37.600+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:36:38.126+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:36:38.161+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:36:38.727+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T08:36:40.680+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:36:41.285+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:36:41.844+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:36:49.232+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:36:51.372+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:36:52.274+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T08:36:52.483+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:36:54.161+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:36:55.131+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T08:36:55.331+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:36:57.213+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:36:57.756+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:36:58.394+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:37:00.380+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:01.434+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:37:02.374+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:37:03.766+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:04.487+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T08:37:04.950+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:37:08.211+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:09.514+08:00  INFO 93452 --- [pool-2-thread-2] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T08:37:09.570+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:37:11.518+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:12.093+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T08:37:12.602+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:37:14.552+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:15.662+08:00  INFO 93452 --- [reliableJudge-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T08:37:16.511+08:00  INFO 93452 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-27T08:37:16.511+08:00  INFO 93452 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-27T08:37:16.514+08:00  INFO 93452 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-27T08:37:16.681+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T08:37:17.771+08:00  INFO 93452 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-27T08:37:19.274+08:00  INFO 93452 --- [pool-2-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2

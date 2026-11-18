@@ -1,0 +1,113 @@
+2026-10-27T20:08:07.378+08:00  WARN 25200 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:08:07.517+08:00  WARN 25200 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:08:08.119+08:00  WARN 25200 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:08:08.122+08:00  INFO 25200 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [req-serv] nacos-server port:8848
+2026-10-27T20:08:08.122+08:00  INFO 25200 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [http-client] connect timeout:1000
+2026-10-27T20:08:08.123+08:00  INFO 25200 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : PER_TASK_CONFIG_SIZE: 3000.0
+2026-10-27T20:08:08.246+08:00  INFO 25200 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2026-10-27T20:08:08.246+08:00  INFO 25200 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2026-10-27T20:08:08.252+08:00  INFO 25200 --- [           main] c.a.n.c.a.r.identify.CredentialWatcher   : null No credential found
+2026-10-27T20:08:08.565+08:00  WARN 25200 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T20:08:08.596+08:00  INFO 25200 --- [           main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\hp\nacos\config
+2026-10-27T20:08:08.602+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d201015d-347e-42d3-9f5f-195cf0394ab8_config-0
+2026-10-27T20:08:08.641+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$504/0x000001c7013223b8
+2026-10-27T20:08:08.641+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$505/0x000001c7013227d8
+2026-10-27T20:08:08.642+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2026-10-27T20:08:08.643+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2026-10-27T20:08:08.657+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2026-10-27T20:08:08.704+08:00  INFO 25200 --- [           main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2026-10-27T20:08:09.970+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1793102890967_172.17.0.1_58264
+2026-10-27T20:08:09.972+08:00  INFO 25200 --- [t.remote.worker] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Notify connected event to listeners.
+2026-10-27T20:08:09.973+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2026-10-27T20:08:09.973+08:00  INFO 25200 --- [t.remote.worker] c.a.n.client.config.impl.ClientWorker    : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Connected,notify listen context...
+2026-10-27T20:08:09.973+08:00  INFO 25200 --- [           main] com.alibaba.nacos.common.remote.client   : [d201015d-347e-42d3-9f5f-195cf0394ab8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$528/0x000001c70148a4e0
+2026-10-27T20:08:10.038+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2026-10-27T20:08:10.060+08:00  WARN 25200 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-judge] & group[DEFAULT_GROUP]
+2026-10-27T20:08:10.069+08:00  WARN 25200 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-judge.yaml] & group[DEFAULT_GROUP]
+2026-10-27T20:08:10.079+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2026-10-27T20:08:10.090+08:00  INFO 25200 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-oj-judge-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-judge.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-judge,DEFAULT_GROUP'}]
+2026-10-27T20:08:10.101+08:00  WARN 25200 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:08:10.103+08:00  INFO 25200 --- [           main] org.example.judge.OjJudgeApplication     : The following 1 profile is active: "local"
+2026-10-27T20:08:11.100+08:00  INFO 25200 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T20:08:11.105+08:00  INFO 25200 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T20:08:11.137+08:00  INFO 25200 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2026-10-27T20:08:11.485+08:00  INFO 25200 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3a7614f2-0805-354c-b462-bbf346cab3ba
+2026-10-27T20:08:12.176+08:00  INFO 25200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-10-27T20:08:12.195+08:00  INFO 25200 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T20:08:12.196+08:00  INFO 25200 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-27T20:08:12.304+08:00  INFO 25200 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T20:08:12.306+08:00  INFO 25200 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2180 ms
+2026-10-27T20:08:12.686+08:00  INFO 25200 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器开始  -----
+2026-10-27T20:08:13.265+08:00  INFO 25200 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器结束  -----
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T20:08:16.444+08:00  WARN 25200 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T20:08:16.547+08:00  INFO 25200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-10-27T20:08:16.712+08:00  INFO 25200 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-27T20:08:16.778+08:00  INFO 25200 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#12704e15:0/SimpleConnection@574059d5 [delegate=amqp://admin@127.0.0.1:5672/, localPort=65362]
+2026-10-27T20:08:16.851+08:00  INFO 25200 --- [           main] org.example.judge.OjJudgeApplication     : Started OjJudgeApplication in 10.281 seconds (process running for 11.276)
+2026-10-27T20:08:16.858+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2026-10-27T20:08:16.858+08:00  INFO 25200 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-judge+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:08:16.875+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-judge, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:08:16.876+08:00  INFO 25200 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-judge, group=DEFAULT_GROUP
+2026-10-27T20:08:16.877+08:00  INFO 25200 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-judge.yaml+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:08:16.878+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-judge.yaml, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:08:16.879+08:00  INFO 25200 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-judge.yaml, group=DEFAULT_GROUP
+2026-10-27T20:08:16.883+08:00  INFO 25200 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [subscribe] oj-judge-local.yaml+DEFAULT_GROUP+92a73212-a8ad-4376-917d-e7d5922e6cd4
+2026-10-27T20:08:16.885+08:00  INFO 25200 --- [pool-5-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T20:08:16.885+08:00  INFO 25200 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-92a73212-a8ad-4376-917d-e7d5922e6cd4-localhost_8848] [add-listener] ok, tenant=92a73212-a8ad-4376-917d-e7d5922e6cd4, dataId=oj-judge-local.yaml, group=DEFAULT_GROUP, cnt=1
+2026-10-27T20:08:16.886+08:00  INFO 25200 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=oj-judge-local.yaml, group=DEFAULT_GROUP
+2026-10-27T20:08:17.074+08:00  INFO 25200 --- [pool-5-thread-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6429f663
+2026-10-27T20:08:17.077+08:00  INFO 25200 --- [pool-5-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T20:08:17.123+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:08:17.272+08:00  INFO 25200 --- [pool-5-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-1
+2026-10-27T20:08:18.064+08:00  INFO 25200 --- [pool-5-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-3
+2026-10-27T20:08:18.668+08:00  INFO 25200 --- [pool-5-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-2
+2026-10-27T20:08:19.216+08:00  INFO 25200 --- [pool-5-thread-1] o.e.judge.config.DockerSandBoxPool       : containerName：oj-reliable-test-jdk-0
+2026-10-27T20:08:47.142+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:09:17.163+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:09:47.175+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:10:17.220+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:10:47.242+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:11:17.269+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:11:47.282+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:12:17.289+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:12:47.304+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:13:17.316+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:13:47.339+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:14:17.350+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:14:47.369+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:15:17.392+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:15:47.412+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:16:17.429+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:16:47.448+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:17:17.464+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:17:47.486+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:18:17.498+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:18:47.509+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:19:17.525+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:19:47.542+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:20:17.555+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:20:47.567+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:21:17.617+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:21:47.638+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:22:17.654+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:22:47.674+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:23:17.696+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:23:47.710+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:24:17.729+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:24:47.744+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:25:17.759+08:00  INFO 25200 --- [pool-5-thread-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:25:47.768+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0
+2026-10-27T20:26:17.778+08:00  INFO 25200 --- [pool-5-thread-1] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=0 expiredLeases=0 retryWaiting=0 failedTasks=0

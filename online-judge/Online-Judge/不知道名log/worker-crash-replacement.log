@@ -1,0 +1,53 @@
+2026-10-30T08:22:49.279+08:00  WARN 20512 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:49.420+08:00  WARN 20512 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:50.494+08:00  WARN 20512 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-30T08:22:50.524+08:00  WARN 20512 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-30T08:22:50.526+08:00  INFO 20512 --- [           main] org.example.judge.OjJudgeApplication     : The following 1 profile is active: "local"
+2026-10-30T08:22:52.327+08:00  INFO 20512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-30T08:22:52.336+08:00  INFO 20512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-30T08:22:52.404+08:00  INFO 20512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+2026-10-30T08:22:53.152+08:00  INFO 20512 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9c85de9a-e2a2-3bdd-9233-5106e2ba8c98
+2026-10-30T08:22:54.799+08:00  INFO 20512 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-10-30T08:22:54.829+08:00  INFO 20512 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T08:22:54.829+08:00  INFO 20512 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-30T08:22:55.170+08:00  INFO 20512 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-30T08:22:55.173+08:00  INFO 20512 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4624 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-30T08:22:56.747+08:00  INFO 20512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T08:22:57.292+08:00  INFO 20512 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e5ee2c9
+2026-10-30T08:22:57.298+08:00  INFO 20512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-30T08:22:59.934+08:00  INFO 20512 --- [           main] o.e.j.s.i.SandboxEnvironmentServiceImpl  : Sandbox ready resourceId=1e5a2466-b511-4ec5-8736-f5073cb15463 createMs=1737
+2026-10-30T08:23:03.726+08:00  WARN 20512 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-30T08:23:03.913+08:00  INFO 20512 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-10-30T08:23:04.682+08:00  INFO 20512 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-30T08:23:04.839+08:00  INFO 20512 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#737db7f8:0/SimpleConnection@58f2466c [delegate=amqp://admin@127.0.0.1:5672/, localPort=58582]
+2026-10-30T08:23:04.958+08:00  INFO 20512 --- [           main] org.example.judge.OjJudgeApplication     : Started OjJudgeApplication in 16.622 seconds (process running for 17.322)
+2026-10-30T08:23:04.959+08:00  INFO 20512 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Sandbox environment accounting SandboxPoolStats(total=2, creating=0, ready=1, leased=0, recycling=1, hardCapacity=3)
+2026-10-30T08:23:04.977+08:00  INFO 20512 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=44 expiredLeases=0 retryWaiting=0 failedTasks=121
+2026-10-30T08:23:04.977+08:00  WARN 20512 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Judge failures require inspection deadEvents=44 failedTasks=121
+2026-10-30T08:23:05.355+08:00  INFO 20512 --- [e-maintenance-5] o.e.j.s.i.SandboxEnvironmentServiceImpl  : Sandbox cleanup completed resourceId=98d72fec-e1d3-4bdc-8799-462a1660571b cleanupMs=394
+2026-10-30T08:23:19.147+08:00  INFO 20512 --- [e-maintenance-2] org.example.judge.job.JudgeRecoveryJob   : Judge recovery observed submitId=2115962581013975041 state=RETRY_WAIT dispatchSeq=1 attempt=1 workerId=1baf5da7-53fb-475d-8d9b-ed03e0e834ef reason=LEASE_EXPIRED
+2026-10-30T08:23:21.414+08:00  INFO 20512 --- [e-maintenance-1] org.example.judge.job.JudgeRecoveryJob   : Judge recovery observed submitId=2115962581013975041 state=RECEIVED dispatchSeq=2 attempt=1 workerId=1baf5da7-53fb-475d-8d9b-ed03e0e834ef reason=LEASE_EXPIRED
+2026-10-30T08:23:22.240+08:00  INFO 20512 --- [pool-2-thread-1] o.e.j.s.impl.OutboxDeliveryServiceImpl   : Judge publish confirmed submitId=2115962581013975041 eventId=d5099a35-69ff-4349-8abf-c943b2232e77 dispatchSeq=2 claimToken=ceb9dc53-7e5b-4a72-88f2-23a3035039b0 applied=1 elapsedMs=53
+2026-10-30T08:23:22.282+08:00  INFO 20512 --- [reliableJudge-1] org.example.judge.rabbit.JudgeConsumer   : Judge resource acquired submitId=2115962581013975041 resourceWaitMs=72
+2026-10-30T08:23:22.283+08:00  INFO 20512 --- [reliableJudge-1] org.example.judge.rabbit.JudgeConsumer   : Judge claimed submitId=2115962581013975041 eventId=d5099a35-69ff-4349-8abf-c943b2232e77 dispatchSeq=2 runToken=b02a0cde-e64d-43bc-879b-a751837f3d48 workerId=b6bcefd4-21bd-442d-8e8f-06fe4c48330b attempt=2
+2026-10-30T08:23:24.135+08:00  INFO 20512 --- [reliableJudge-1] o.e.j.s.impl.SandboxPoolServiceImpl      : Sandbox stage containerId=c4cd5c206537ce70e1678e95e4300d9cbc6fd372fd00d9ae309d878a0c293cd4 attempt=2630a6ed-6d24-4ab7-8f82-040057c13c81 index=-1 preparationMicros=845 wallMicros=1751855 cpuMicros=1624823 cleanupMicros=21220 cleanupComplete=true
+2026-10-30T08:23:30.342+08:00  INFO 20512 --- [reliableJudge-1] o.e.j.s.impl.SandboxPoolServiceImpl      : Sandbox stage containerId=c4cd5c206537ce70e1678e95e4300d9cbc6fd372fd00d9ae309d878a0c293cd4 attempt=2630a6ed-6d24-4ab7-8f82-040057c13c81 index=0 preparationMicros=918 wallMicros=6129305 cpuMicros=122103 cleanupMicros=2113 cleanupComplete=true
+2026-10-30T08:23:34.992+08:00  INFO 20512 --- [e-maintenance-5] org.example.judge.job.JudgeRecoveryJob   : Sandbox environment accounting SandboxPoolStats(total=1, creating=0, ready=0, leased=1, recycling=0, hardCapacity=3)
+2026-10-30T08:23:35.001+08:00  INFO 20512 --- [e-maintenance-5] org.example.judge.job.JudgeRecoveryJob   : Judge reliability pendingEvents=0 inflightEvents=0 deadEvents=44 expiredLeases=0 retryWaiting=0 failedTasks=121
+2026-10-30T08:23:35.001+08:00  WARN 20512 --- [e-maintenance-5] org.example.judge.job.JudgeRecoveryJob   : Judge failures require inspection deadEvents=44 failedTasks=121
+2026-10-30T08:23:36.381+08:00  INFO 20512 --- [reliableJudge-1] o.e.j.s.impl.SandboxPoolServiceImpl      : Sandbox stage containerId=c4cd5c206537ce70e1678e95e4300d9cbc6fd372fd00d9ae309d878a0c293cd4 attempt=2630a6ed-6d24-4ab7-8f82-040057c13c81 index=1 preparationMicros=676 wallMicros=6096210 cpuMicros=97189 cleanupMicros=2805 cleanupComplete=true
+2026-10-30T08:23:36.688+08:00  INFO 20512 --- [reliableJudge-1] o.e.common.mybatis.MyMetaObjectHandler   : 开始插入填充...
+2026-10-30T08:23:36.789+08:00  INFO 20512 --- [reliableJudge-1] org.example.judge.rabbit.JudgeConsumer   : Judge attempt handler ended submitId=2115962581013975041 eventId=d5099a35-69ff-4349-8abf-c943b2232e77 runToken=b02a0cde-e64d-43bc-879b-a751837f3d48 workerId=b6bcefd4-21bd-442d-8e8f-06fe4c48330b attempt=2 elapsedMs=14506

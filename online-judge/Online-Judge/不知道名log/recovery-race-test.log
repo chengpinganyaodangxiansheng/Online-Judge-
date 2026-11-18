@@ -1,0 +1,41 @@
+13:33:49.654 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [JudgeReliabilityIntegrationTest]: using SpringBootContextLoader
+13:33:49.658 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.example.judge.JudgeReliabilityIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:33:49.691 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [JudgeReliabilityIntegrationTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+13:33:49.866 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [JudgeReliabilityIntegrationTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+13:33:49.868 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [JudgeReliabilityIntegrationTest], class annotated with @DirtiesContext [false] with mode [null]
+2026-10-27T13:33:50.650+08:00  WARN 167996 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:33:50.826+08:00  WARN 167996 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:33:51.747+08:00  WARN 167996 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T13:33:51.797+08:00  WARN 167996 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T13:33:51.800+08:00  INFO 167996 --- [           main] o.e.j.JudgeReliabilityIntegrationTest    : The following 1 profile is active: "local"
+2026-10-27T13:33:53.543+08:00  INFO 167996 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T13:33:53.555+08:00  INFO 167996 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T13:33:53.761+08:00  INFO 167996 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 0 Redis repository interfaces.
+2026-10-27T13:33:54.663+08:00  INFO 167996 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eae215d4-dbf8-3013-a9b1-5920680d1ad2
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T13:34:00.795+08:00  WARN 167996 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T13:34:00.926+08:00  INFO 167996 --- [           main] o.e.j.JudgeReliabilityIntegrationTest    : Started JudgeReliabilityIntegrationTest in 10.995 seconds (process running for 12.133)
+2026-10-27T13:34:01.867+08:00  INFO 167996 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T13:34:02.321+08:00  INFO 167996 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b409174
+2026-10-27T13:34:02.325+08:00  INFO 167996 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T13:34:03.470+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:04.221+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:04.489+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:04.582+08:00  INFO 167996 --- [pool-5-thread-1] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:05.050+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:05.187+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:05.266+08:00  INFO 167996 --- [           main] o.e.common.mybatis.MyMetaObjectHandler   : ��ʼ�������...
+2026-10-27T13:34:06.038+08:00  INFO 167996 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-27T13:34:06.060+08:00  INFO 167996 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

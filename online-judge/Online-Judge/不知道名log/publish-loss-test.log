@@ -1,0 +1,37 @@
+08:46:43.852 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [OutboxPublishIntegrationTest]: using SpringBootContextLoader
+08:46:43.855 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.example.judge.OutboxPublishIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:46:43.884 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [OutboxPublishIntegrationTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+08:46:44.050 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [OutboxPublishIntegrationTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+08:46:44.051 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [OutboxPublishIntegrationTest], class annotated with @DirtiesContext [false] with mode [null]
+2026-10-27T08:46:44.811+08:00  WARN 100420 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:46:44.945+08:00  WARN 100420 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:46:45.830+08:00  WARN 100420 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T08:46:45.868+08:00  WARN 100420 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T08:46:45.870+08:00  INFO 100420 --- [           main] o.e.judge.OutboxPublishIntegrationTest   : The following 1 profile is active: "local"
+2026-10-27T08:46:47.158+08:00  INFO 100420 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T08:46:47.165+08:00  INFO 100420 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T08:46:47.387+08:00  INFO 100420 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 0 Redis repository interfaces.
+2026-10-27T08:46:48.154+08:00  INFO 100420 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eae215d4-dbf8-3013-a9b1-5920680d1ad2
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T08:46:53.989+08:00  WARN 100420 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T08:46:54.088+08:00  INFO 100420 --- [           main] o.e.judge.OutboxPublishIntegrationTest   : Started OutboxPublishIntegrationTest in 9.981 seconds (process running for 10.981)
+2026-10-27T08:46:55.261+08:00  INFO 100420 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T08:46:55.731+08:00  INFO 100420 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10e4cc6
+2026-10-27T08:46:55.742+08:00  INFO 100420 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T08:46:55.822+08:00  INFO 100420 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-10-27T08:46:55.929+08:00  INFO 100420 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2047adea:0/SimpleConnection@34001c5d [delegate=amqp://admin@127.0.0.1:5672/, localPort=51628]
+2026-10-27T08:46:57.877+08:00  WARN 100420 --- [nectionFactory1] o.s.amqp.rabbit.core.RabbitTemplate      : Returned message but no callback available
+2026-10-27T08:46:59.331+08:00  INFO 100420 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-27T08:46:59.347+08:00  INFO 100420 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

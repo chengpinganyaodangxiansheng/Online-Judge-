@@ -1,0 +1,76 @@
+2026-10-27T20:06:19.429+08:00  WARN 21580 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:19.585+08:00  WARN 21580 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:20.456+08:00  WARN 21580 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:20.459+08:00  INFO 21580 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [req-serv] nacos-server port:8848
+2026-10-27T20:06:20.460+08:00  INFO 21580 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : [settings] [http-client] connect timeout:1000
+2026-10-27T20:06:20.463+08:00  INFO 21580 --- [           main] c.alibaba.nacos.client.utils.ParamUtil   : PER_TASK_CONFIG_SIZE: 3000.0
+2026-10-27T20:06:20.640+08:00  INFO 21580 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2026-10-27T20:06:20.640+08:00  INFO 21580 --- [           main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2026-10-27T20:06:20.651+08:00  INFO 21580 --- [           main] c.a.n.c.a.r.identify.CredentialWatcher   : null No credential found
+2026-10-27T20:06:21.143+08:00  WARN 21580 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2026-10-27T20:06:21.183+08:00  INFO 21580 --- [           main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\hp\nacos\config
+2026-10-27T20:06:21.193+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 9cbe5787-9750-4d43-af9c-e7121060041c_config-0
+2026-10-27T20:06:21.245+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$504/0x0000017681323490
+2026-10-27T20:06:21.246+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$505/0x00000176813238b0
+2026-10-27T20:06:21.248+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2026-10-27T20:06:21.249+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2026-10-27T20:06:21.270+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2026-10-27T20:06:21.347+08:00  INFO 21580 --- [           main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2026-10-27T20:06:23.187+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Success to connect to server [localhost:8848] on start up, connectionId = 1793102782425_172.17.0.1_43762
+2026-10-27T20:06:23.189+08:00  INFO 21580 --- [t.remote.worker] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Notify connected event to listeners.
+2026-10-27T20:06:23.190+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2026-10-27T20:06:23.190+08:00  INFO 21580 --- [t.remote.worker] c.a.n.client.config.impl.ClientWorker    : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Connected,notify listen context...
+2026-10-27T20:06:23.190+08:00  INFO 21580 --- [           main] com.alibaba.nacos.common.remote.client   : [9cbe5787-9750-4d43-af9c-e7121060041c_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$528/0x000001768149b0c8
+2026-10-27T20:06:23.307+08:00  INFO 21580 --- [           main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2026-10-27T20:06:23.355+08:00  WARN 21580 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-judge] & group[DEFAULT_GROUP]
+2026-10-27T20:06:23.376+08:00  WARN 21580 --- [           main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[oj-judge.yaml] & group[DEFAULT_GROUP]
+2026-10-27T20:06:23.392+08:00  INFO 21580 --- [           main] c.a.nacos.client.config.utils.JvmUtil    : isMultiInstance:false
+2026-10-27T20:06:23.411+08:00  INFO 21580 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-oj-judge-local.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-judge.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-oj-judge,DEFAULT_GROUP'}]
+2026-10-27T20:06:23.431+08:00  WARN 21580 --- [           main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2026-10-27T20:06:23.434+08:00  INFO 21580 --- [           main] org.example.judge.OjJudgeApplication     : The following 1 profile is active: "local"
+2026-10-27T20:06:24.937+08:00  INFO 21580 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-27T20:06:24.947+08:00  INFO 21580 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-27T20:06:25.014+08:00  INFO 21580 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2026-10-27T20:06:25.522+08:00  INFO 21580 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3a7614f2-0805-354c-b462-bbf346cab3ba
+2026-10-27T20:06:26.720+08:00  INFO 21580 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-10-27T20:06:26.747+08:00  INFO 21580 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T20:06:26.748+08:00  INFO 21580 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2026-10-27T20:06:26.907+08:00  INFO 21580 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-27T20:06:26.910+08:00  INFO 21580 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3416 ms
+2026-10-27T20:06:27.372+08:00  INFO 21580 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器开始  -----
+2026-10-27T20:06:28.371+08:00  INFO 21580 --- [           main] o.e.judge.config.DockerSandBoxPool       : ------  创建容器结束  -----
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-10-27T20:06:31.421+08:00  WARN 21580 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-27T20:06:31.585+08:00  WARN 21580 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-27T20:06:31.625+08:00  INFO 21580 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-27T20:06:31.652+08:00  INFO 21580 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-27T20:06:31.700+08:00 ERROR 21580 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-10-27T20:06:32.625+08:00  WARN 21580 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2026-10-27T20:06:32.626+08:00  WARN 21580 --- [       Thread-7] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher

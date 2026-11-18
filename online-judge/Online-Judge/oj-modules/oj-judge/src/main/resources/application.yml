@@ -1,0 +1,45 @@
+spring:
+  # 缩进表示配置层级，例如下面的确认类型完整名称为 spring.rabbitmq.publisher-confirm-type。
+  rabbitmq:
+    # 关联发布确认与 mandatory 退回一起判断，Broker ACK 本身不能证明路由成功。
+    publisher-confirm-type: correlated
+    # 允许接收无法路由的消息退回；发布服务会同时核对发布确认和退回结果。
+    publisher-returns: true
+    template:
+      mandatory: true
+    # 心跳用于探测连接是否存活，不是一次判题允许的执行时间。
+    requested-heartbeat: 30s
+    # 建立消息代理连接最多等待五秒，避免网络不可达时无限等待。
+    connection-timeout: 5s
+  task:
+    scheduling:
+      pool:
+        # 补偿、投递扫描与回收可并行调度，实际网络发布另有独立有界线程池。
+        size: 3
+judge:
+  task:
+    # 固定消费者数，每个消费者预取一条未确认消息。
+    concurrency: 1
+    # 租约每约三分之一周期续租；与下面固定保护期限不同。
+    lease-seconds: 30
+    # 从受理/进入重试等待起算，包含 MQ、资源等待及重试退避。
+    queue-seconds: 120
+    # 每轮最多实际执行三次，人工重试开启新预算但保留历史。
+    max-attempts: 3
+    # 一次执行的固定保护上限，续租不可延长；不是题目单用例时限。
+    protection-seconds: 600
+    # 每轮扫描数量同时作为发布线程池的等待队列容量。
+    scan-batch: 20
+    scan-ms: 2000
+    # 每三十秒输出一次积压和资源统计，单位为毫秒。
+    metrics-ms: 30000
+  outbox:
+    # 网络发布独立于扫描线程；发送预算与判题执行预算分别计算。
+    concurrency: 1
+    max-sends: 5
+    # 某发布者领取事件后拥有三十秒有效期，失联后由恢复扫描处理过期领取。
+    claim-seconds: 30
+    # 未收到确认按不确定发送处理，等待领取过期/退避后可重发原事件。
+    confirm-seconds: 5
+    scan-ms: 1000
+    # 例如确认丢失，事件仍可能已进队列；下一轮可以重发原事件，消费者通过数据库领取条件去重。

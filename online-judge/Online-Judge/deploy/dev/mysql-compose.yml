@@ -1,0 +1,38 @@
+# 项目专用 MySQL 8.4，数据卷与原 MySQL 5.7 分离，不能复用旧版本的数据目录。
+services:
+  # mysql 是组合配置中的服务名，后续启动命令可以用它选择这个服务。
+  mysql:
+    image: mysql:8.4
+    # 固定容器名称，便于本地检查状态和连接排查。
+    container_name: oj-reliability-mysql
+    restart: unless-stopped
+    # 上一项表示异常退出后自动重启，但尊重手动停止状态。
+    ports:
+      # 仅本机 3310 对外提供连接，保留原 5.7 的 3306 端口。
+      - "127.0.0.1:3310:3306"
+    environment:
+      # 设置数据库容器使用的时区。
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: ${OJ_MYSQL_ROOT_PASSWORD:?Set OJ_MYSQL_ROOT_PASSWORD in .env}
+      # 上一项从外部变量读取密码；变量缺失或为空时阻止启动，避免误用空密码初始化。
+      # 仅空卷首次初始化创建此库；迁移的 bitoj_dev 等数据库位于同一独立卷中。
+      MYSQL_DATABASE: oj_reliability_test
+    command:
+      # 设置默认字符集以支持中文等字符，排序规则用于默认字符串比较。
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      # 容器重建不等于删除数据；此命名卷承载测试库及已迁移的业务库。
+      - oj-reliability-mysql-data:/var/lib/mysql
+    healthcheck:
+      # 在容器内执行存活探测；双美元符号让变量留到容器执行时展开，而非由组合工具提前替换。
+      # 此探测只说明数据库服务能响应，不代表业务表和测试数据已初始化完成。
+      test: ["CMD-SHELL", "MYSQL_PWD=$$MYSQL_ROOT_PASSWORD mysqladmin ping -h localhost -uroot --silent"]
+      interval: 5s
+      # 每次探测最多等待五秒，连续失败三十次后标记不健康。
+      timeout: 5s
+      retries: 30
+
+volumes:
+  # 声明持久化命名卷；例如仅重建容器时，数据库文件仍由这个卷保存。
+  oj-reliability-mysql-data:

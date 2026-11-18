@@ -1,0 +1,226 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:oj-common-file:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.example:oj-common-core:jar -> duplicate declaration of version 1.0-SNAPSHOT @ line 61, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Online-Judge                                                       [pom]
+[INFO] oj-common                                                          [pom]
+[INFO] oj-common-redis                                                    [jar]
+[INFO] oj-common-core                                                     [jar]
+[INFO] oj-common-security                                                 [jar]
+[INFO] oj-api                                                             [jar]
+[INFO] oj-common-rabbitMQ                                                 [jar]
+[INFO] oj-common-mybatis                                                  [jar]
+[INFO] oj-modules                                                         [pom]
+[INFO] oj-judge                                                           [jar]
+[INFO] 
+[INFO] ----------------------< org.example:Online-Judge >----------------------
+[INFO] Building Online-Judge 1.0-SNAPSHOT                                [1/10]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< org.example:oj-common >------------------------
+[INFO] Building oj-common 1.0-SNAPSHOT                                   [2/10]
+[INFO]   from oj-common\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------------< org.example:oj-common-redis >---------------------
+[INFO] Building oj-common-redis 1.0-SNAPSHOT                             [3/10]
+[INFO]   from oj-common\oj-common-redis\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-common-redis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-common-redis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-common-redis ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-redis\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-common-redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-common-redis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-common-redis ---
+[INFO] 
+[INFO] ---------------------< org.example:oj-common-core >---------------------
+[INFO] Building oj-common-core 1.0-SNAPSHOT                              [4/10]
+[INFO]   from oj-common\oj-common-core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-common-core ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-common-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-common-core ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-core\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-common-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-common-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-common-core ---
+[INFO] 
+[INFO] -------------------< org.example:oj-common-security >-------------------
+[INFO] Building oj-common-security 1.0-SNAPSHOT                          [5/10]
+[INFO]   from oj-common\oj-common-security\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-common-security ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-common-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-common-security ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-security\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-common-security ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-common-security ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-common-security ---
+[INFO] 
+[INFO] -------------------------< org.example:oj-api >-------------------------
+[INFO] Building oj-api 1.0-SNAPSHOT                                      [6/10]
+[INFO]   from oj-api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-api ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-api ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-api ---
+[INFO] 
+[INFO] -------------------< org.example:oj-common-rabbitMQ >-------------------
+[INFO] Building oj-common-rabbitMQ 1.0-SNAPSHOT                          [7/10]
+[INFO]   from oj-common\oj-common-rabbitMQ\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-common-rabbitMQ ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-common-rabbitMQ ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-common-rabbitMQ ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-rabbitMQ\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-common-rabbitMQ ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-common-rabbitMQ ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-common-rabbitMQ ---
+[INFO] 
+[INFO] -------------------< org.example:oj-common-mybatis >--------------------
+[INFO] Building oj-common-mybatis 1.0-SNAPSHOT                           [8/10]
+[INFO]   from oj-common\oj-common-mybatis\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-common-mybatis ---
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-common-mybatis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-common-mybatis ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-mybatis\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-common-mybatis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-common-mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-common-mybatis ---
+[INFO] Building jar: E:\�㷨��̨\online-judge\Online-Judge\oj-common\oj-common-mybatis\target\oj-common-mybatis-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.example:oj-modules >-----------------------
+[INFO] Building oj-modules 1.0-SNAPSHOT                                  [9/10]
+[INFO]   from oj-modules\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------------< org.example:oj-judge >------------------------
+[INFO] Building oj-judge 1.0-SNAPSHOT                                   [10/10]
+[INFO]   from oj-modules\oj-judge\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ oj-judge ---
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ oj-judge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\classes
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+[INFO] /E:/�㷨��̨/online-judge/Online-Judge/oj-modules/oj-judge/src/main/java/org/example/judge/callback/DockerStartResultCallback.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ oj-judge ---
+[INFO] skip non existing resourceDirectory E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ oj-judge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ oj-judge ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ oj-judge ---
+[INFO] Building jar: E:\�㷨��̨\online-judge\Online-Judge\oj-modules\oj-judge\target\oj-judge-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.0.1:repackage (repackage) @ oj-judge ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Online-Judge 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Online-Judge ....................................... SUCCESS [  0.003 s]
+[INFO] oj-common .......................................... SUCCESS [  0.001 s]
+[INFO] oj-common-redis .................................... SUCCESS [  1.813 s]
+[INFO] oj-common-core ..................................... SUCCESS [  0.172 s]
+[INFO] oj-common-security ................................. SUCCESS [  0.197 s]
+[INFO] oj-api ............................................. SUCCESS [  0.171 s]
+[INFO] oj-common-rabbitMQ ................................. SUCCESS [  0.127 s]
+[INFO] oj-common-mybatis .................................. SUCCESS [  0.327 s]
+[INFO] oj-modules ......................................... SUCCESS [  0.000 s]
+[INFO] oj-judge ........................................... SUCCESS [  8.243 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.685 s
+[INFO] Finished at: 2026-10-27T20:05:44+08:00
+[INFO] ------------------------------------------------------------------------
